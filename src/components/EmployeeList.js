@@ -8,28 +8,28 @@ const EmployeeList = () => {
             surname: "Slughorn",
             role: "Zbieracz winogron",
             desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan ex sapien. Ut rutrum sed arcu sit amet pulvinar. Duis ut nibh nec felis venenatis iaculis et non ipsum. ",
-            photo: "src/media/horace.png",
+            photo: "/media/horace.png",
         },
         {
             name: "Minerva",
             surname: "McGonagall",
             role: "Zaklinacz bakterii",
             desc: "Morbi egestas placerat felis. Sed eget fringilla est. Nunc non volutpat ipsum. Vestibulum eget nisl interdum, condimentum elit ut, facilisis sem.",
-            photo: "src/media/minerva.jpg",
+            photo: "/media/minerva.jpg",
         },
         {
             name: "Brian",
             surname: "Percival",
             role: "Wycinacz korków",
             desc: "Donec non nisl finibus, suscipit diam et, luctus sapien. Fusce sollicitudin dui elit, vitae ultrices sapien congue congue. Integer laoreet eros mi, ac rhoncus libero laoreet quis.",
-            photo: "src/components/media/mugwump.png",
+            photo: "/media/mugwump.png",
         },
         {
             name: "Snivellus",
             surname: "",
             role: "??",
             desc: "Proin vestibulum risus risus, ultrices laoreet ante congue vitae. Sed auctor tellus ultricies nunc aliquet volutpat. Sed eget tortor non nisi ultrices tempus et vitae ante.",
-            photo: "https://images.pexels.com/photos/34153/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=350",
+            photo: "/media/snivellus.jpeg",
         },
     ];
 
