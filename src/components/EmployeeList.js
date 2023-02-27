@@ -44,37 +44,11 @@ const EmployeeList = () => {
                         role={role}
                         desc={desc}
                         photo={photo}
-                        /* linkLive={linkLive}
-                        section={section} */
                         key={name + surname}
                     />
                 ))}
             </div>
         </section>
-
-        /* <div className="navbar-ribbon">
-            <div className="container navbar">
-                <a
-                    href="../index.html"
-                    alt="In Vino Veritas"
-                    className="comp-name"
-                >
-                    In Vino Veritas
-                </a>
-                <section className="navigation">
-                    <ul className="nav-list">
-                        {links.map(({ name, linkLive, section }) => (
-                            <Navlink
-                                name={name}
-                                linkLive={linkLive}
-                                section={section}
-                                key={name}
-                            />
-                        ))}
-                    </ul>
-                </section>
-            </div>
-        </div> */
     );
 };
 

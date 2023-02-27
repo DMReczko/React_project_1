@@ -3,8 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import EmployeeList from "./components/EmployeeList";
-import Footer from "./components/Footer";
 import OfferList from "./components/OfferList";
+import Footer from "./components/Footer";
 
 function App() {
     return (
