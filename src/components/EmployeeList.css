@@ -1,0 +1,102 @@
+/*---  About section - employees  ---*/
+
+.about-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #152d41;
+    text-align: left;
+}
+
+.employee {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    padding-top: 50px;
+}
+
+.employee-pic {
+    margin-bottom: 40px;
+    flex: 0 0 221px;
+    background-position: center;
+    background-size: cover;
+    width: 221px;
+    height: 221px;
+    border-radius: 50%;
+}
+/* 
+.em-pic-1 {
+    background-image: url("../media/horace.png");
+}
+
+.em-pic-2 {
+    background-image: url("../media/minerva.jpg");
+}
+
+.em-pic-3 {
+    background-image: url("../media/mugwump.png");
+}
+
+.em-pic-4 {
+    background-image: url("../media/snivellus.jpeg");
+} */
+
+.bio-name {
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.bio-desc {
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 25px;
+}
+
+/*---  Media queries  - Tablet ---*/
+
+@media screen and (min-width: 768px) {
+    .employee:nth-of-type(odd) {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .employee:nth-of-type(even) {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+
+    .employee:nth-of-type(odd) .employee-bio {
+        margin-left: 40px;
+    }
+
+    .employee:nth-of-type(even) .employee-bio {
+        margin-right: 40px;
+    }
+
+    .employee-pic {
+        flex: 0 0 197px;
+        width: 197px;
+        height: 197px;
+        margin-bottom: 0;
+    }
+}
+
+/*---  Media queries  - Laptop ---*/
+
+@media screen and (min-width: 1024px) {
+    .employee:nth-of-type(odd) .employee-bio {
+        margin-left: 60px;
+    }
+
+    .employee:nth-of-type(even) .employee-bio {
+        margin-right: 60px;
+    }
+}

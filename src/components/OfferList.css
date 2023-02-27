@@ -1,0 +1,131 @@
+/*---  Offer section  ---*/
+
+#offer {
+    background-color: #405d78;
+}
+
+.our-offer {
+    padding-top: 76px;
+}
+
+.offer-header {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.all-offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 42px;
+    margin: auto;
+    margin-top: 60px;
+    padding-bottom: 45px;
+}
+
+.offer-box,
+.offer-new {
+    background-color: #f1f1f1;
+    height: 197px;
+    width: 197px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #405d78;
+    transition: all 0.5s ease-out;
+}
+
+.offer-box:hover {
+    transform: scale(1.05);
+}
+
+.offer-new {
+    flex-direction: column;
+    position: relative;
+}
+
+.offer-new::before {
+    content: "";
+    display: block;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #e07a64;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+
+.new-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.old-text {
+    visibility: none;
+}
+
+/*---  Media queries  - medium phone ---*/
+
+@media screen and (min-width: 425px) {
+    .offer-box {
+        height: 330px;
+        width: 340px;
+    }
+}
+/*---  Media queries  - Tablet ---*/
+
+@media screen and (min-width: 768px) {
+    .our-offer {
+        padding-top: 50px;
+    }
+
+    .all-offers {
+        display: grid;
+        justify-content: center;
+        width: 720px;
+        margin: auto;
+        grid-template-columns: auto auto;
+        gap: 50px;
+        margin-top: 83px;
+        padding-bottom: 64px;
+    }
+
+    .offer-box {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        height: 260px;
+        width: 260px;
+    }
+
+    .offer-new::before {
+        width: 30px;
+        height: 30px;
+        top: -10px;
+        left: -10px;
+    }
+    .offer-header {
+        text-align: left;
+    }
+}
+/*---  Media queries  - Laptop ---*/
+
+@media screen and (min-width: 1024px) {
+    .all-offers {
+        grid-template-columns: auto auto auto;
+        gap: 63px;
+    }
+
+    .offer-box {
+        height: 197px;
+        width: 197px;
+    }
+}

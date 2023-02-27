@@ -1,0 +1,45 @@
+/*---  Footer  ---*/
+
+.footer-box {
+    background-color: #4e4e4e;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+    line-height: 21px;
+    font-weight: 700;
+    color: white;
+    padding-top: 38px;
+    padding-bottom: 42px;
+}
+
+.icon-box {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 10px;
+}
+
+/*---  Media queries  - Tablet ---*/
+
+@media screen and (min-width: 768px) {
+    .footer {
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .icon-box {
+        margin-top: none;
+        justify-content: space-between;
+    }
+}
