@@ -27,7 +27,7 @@ const EmployeeList = () => {
         {
             name: "Snivellus",
             surname: "",
-            role: "??",
+            role: "Ważniak",
             desc: "Proin vestibulum risus risus, ultrices laoreet ante congue vitae. Sed auctor tellus ultricies nunc aliquet volutpat. Sed eget tortor non nisi ultrices tempus et vitae ante.",
             photo: "/media/snivellus.jpeg",
         },
