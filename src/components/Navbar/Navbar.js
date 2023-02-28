@@ -1,13 +1,8 @@
 import "./Navbar.css";
 import Navlink from "./Navlink.js";
+import links from "../../data/links.js";
 
 function Navbar() {
-    const links = [
-        { name: "o nas", linkLive: true, section: "#about" },
-        { name: "oferta", linkLive: true, section: "#offer" },
-        { name: "kontakt", linkLive: false, section: null },
-    ];
-
     return (
         <div className="navbar-ribbon">
             <div className="container navbar">
@@ -18,7 +13,7 @@ function Navbar() {
                 >
                     In Vino Veritas
                 </a>
-                <section className="navigation">
+                <nav className="navigation">
                     <ul className="nav-list">
                         {links.map(({ name, linkLive, section }) => (
                             <Navlink
@@ -29,7 +24,7 @@ function Navbar() {
                             />
                         ))}
                     </ul>
-                </section>
+                </nav>
             </div>
         </div>
     );

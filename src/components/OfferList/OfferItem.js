@@ -4,7 +4,7 @@ const OfferItem = ({ item, isNew }) => {
     return (
         <div className={isNew ? "offer-box offer-new" : "offer-box"}>
             {item}
-            <p className="new-text">{isNew ? "(nowość)" : ""}</p>
+            {isNew && <p className="new-text">(nowość)</p>}
         </div>
     );
 };
