@@ -12,7 +12,6 @@ const Employee = ({ name, surname, role, desc, photo }) => {
             <div className="employee-bio">
                 <p className="bio-name">
                     {name} {surname} - {role}
-                    <br />
                 </p>
                 <p className="bio-desc">{desc}</p>
             </div>

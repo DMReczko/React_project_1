@@ -2,7 +2,7 @@ import "./Header.css";
 
 function Header() {
     return (
-        <div className="page-header">
+        <header className="page-header">
             <div className="container header-content">
                 <div className="header-smallbox">
                     <h1 className="intro">
@@ -14,7 +14,7 @@ function Header() {
                     <a href="#offer">oferta</a>
                 </div>
             </div>
-        </div>
+        </header>
     );
 }
 

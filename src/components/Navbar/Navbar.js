@@ -7,7 +7,7 @@ function Navbar() {
         <div className="navbar-ribbon">
             <div className="container navbar">
                 <a
-                    href="../index.html"
+                    href="/index.html"
                     alt="In Vino Veritas"
                     className="comp-name"
                 >

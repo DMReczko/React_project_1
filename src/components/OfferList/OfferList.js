@@ -4,7 +4,7 @@ import "./OfferList.css";
 
 const OfferList = () => {
     return (
-        <section id="offer">
+        <section id="offer" className="offer">
             <div className="container our-offer">
                 <h2 className="offer-header">Co dobrego dla Ciebie mamy?</h2>
                 <div className="all-offers">
